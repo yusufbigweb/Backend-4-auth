@@ -17,6 +17,10 @@ export const verifyFirebaseToken = async (
       });
     }
 
+
+
+    
+
     const decodedToken =
       await admin.auth().verifyIdToken(token);
 
